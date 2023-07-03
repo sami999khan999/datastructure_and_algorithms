@@ -442,10 +442,86 @@ console.log(unitImpuls(10)); // time complexity O(n)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-function recursion(n) {
+// // recursion
+
+// // Recursion is a programming technique where a function calls itself to solve a smaller version of the problem. It is a powerful concept used in many algorithms and can be particularly useful when dealing with problems that have a recursive structure or can be broken down into smaller subproblems. //
+
+//============================================================================================================================================//
+
+// // recurstve fibonacci
+
+function recursiveFibonacci(n) {
   if (n < 2) return n;
 
-  return recursion(n - 1) + recursion(n - 2);
+  return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 }
 
-console.log(recursion(6));
+console.log(recursiveFibonacci(6)); // time complexity O(2^n)
+
+// // The time complexity of the recursive Fibonacci algorithm is O(2^n). The reason for this is that the algorithm recursively calls itself twice for each input value, reducing the problem size by 1 each time. As a result, the number of function calls grows exponentially with the input value n. //
+
+//============================================================================================================================================//
+
+// // recursive factorial
+
+const recursiveFactorial = function (n) {
+  if (n < 1) return 1;
+
+  return n * recursiveFactorial(n - 1);
+};
+
+console.log(recursiveFactorial(3)); // time complexity O(2^n)
+console.log(recursiveFactorial(5));
+console.log(recursiveFactorial(6));
+console.log(recursiveFactorial(8));
+
+// // The time complexity of the recursiveFactorial function you provided is O(n), where n is the input number. In the base case, when n is less than 1, the function immediately returns 1. This operation takes constant time, O(1).  In the recursive case, when n is greater than or equal to 1, the function recursively calls itself with n - 1 as the argument. Each recursive call reduces the problem size by 1. Therefore, the number of recursive calls will be equal to the value of n. //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // searching algorithm
+
+// // There are various searching algorithms that can be used to find a specific element or value within a collection of data. Here are three commonly used searching algorithms: 1. Linear Search, 2. Binary Search. //
+
+//============================================================================================================================================//
+
+// // linear search
+
+// // Linear search is a simple algorithm that checks each element in a collection one by one until it finds the desired value or reaches the end of the collection. It is suitable for small collections or unsorted data. //
+
+const linearSearch = function (arr, target) {
+  for (let i = 0; i <= arr.length - 1; i++) {
+    if (arr[i] === target) return target;
+  }
+  return -1;
+};
+
+console.log(linearSearch([2, 6, 7, 8, 1, 9], 6)); // time complexity O(n)
+
+//============================================================================================================================================//
+
+// // binaty search
+
+// // Binary search is an efficient algorithm that requires the data to be sorted in ascending or descending order. It works by repeatedly dividing the search space in half and comparing the middle element with the target value. Based on the comparison, it continues the search in the left or right half until the target value is found or the search space is exhausted. //
+
+const binarySearch = function (arr, target) {
+  let left = 0;
+  let right = arr.length - 1;
+
+  for (let i = 0; i <= arr.length - 1; i++) {
+    let middle = Math.floor((left + right) / 2);
+
+    console.log(middle);
+    console.log(left);
+    console.log(right);
+
+    if (target === arr[middle]) return middle;
+    if (target > arr[middle]) left = middle + 1;
+    else right = middle - 1;
+  }
+  return -1;
+};
+
+console.log(binarySearch([3, 5, 9, 11, 17, 22, 77], 77)); // time complexity O(log n)
