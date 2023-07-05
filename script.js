@@ -4,6 +4,50 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
+// Algorithms -
+
+// Time complexity -
+
+// space complexity -
+
+// asymptotic notation -
+
+// Big O notation, Omega notaion and Theta notaion -
+
+// calculating the time complexity -
+
+//  time complixity for object -
+
+// time complexity for array -
+
+// fibonacci serise -
+
+// factorial -
+
+// prime number -
+
+// power of 2 -
+
+// unit step -
+
+// unit ramp -
+
+// unit impuls -
+
+// recursion {
+// recurstve fibonacci -
+// recursive factorial -
+// }
+
+// searching algorithm {
+// linear search -
+// binaty search -
+// }
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
 // // algorithms
 
 // // Algorithms are step-by-step procedures or sets of rules for solving specific problems or performing specific tasks. They are fundamental to computer science and programming and are used to solve a wide range of problems efficiently and systematically. Algorithms can be expressed in various ways, such as natural language, pseudocode, flowcharts, or programming languages. //
@@ -38,7 +82,7 @@
 
 // // space complexity
 
-// // Space complexity is a measure used in computer science to analyze the amount of memory or space required by an algorithm to solve a problem. It quantifies the maximum amount of memory an algorithm needs as a function of the input size. Similar to time complexity, space complexity is commonly denoted using Big O notation. It provides an upper bound on the growth rate of an algorithm's memory usage as the input size increases.
+// // Space complexity is a measure used in computer science to analyze the amount of memory or space required by an algorithm to solve a problem. It quantifies the maximum amount of memory an algorithm needs as a function of the input size. Similar to time complexity, space complexity is commonly denoted using Big O notation. It provides an upper bound on the growth rate of an algorithm's memory usage as the input size increases. //
 
 //============================================================================================================================================//
 
@@ -144,7 +188,7 @@ for (let i = 1; i <= n; i++) {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
-// // thme complixity for object
+// // time complixity for object
 
 // // When referring to the time complexity of an object in the context of data structures and algorithms, we typically consider the operations performed on the object. The time complexity of various operations on objects can vary depending on the specific implementation. //
 
