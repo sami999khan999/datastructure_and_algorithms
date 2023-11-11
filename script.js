@@ -53,6 +53,16 @@
 // // Algorithms are step-by-step procedures or sets of rules for solving specific problems or performing specific tasks. They are fundamental to computer science and programming and are used to solve a wide range of problems efficiently and systematically. Algorithms can be expressed in various ways, such as natural language, pseudocode, flowcharts, or programming languages. //
 
 //============================================================================================================================================//
+
+// // Whay you should learn algorithms?
+
+// // 1. Critical thinking and abstraction.
+// // 2. Problem solving.
+// // 3. Computer science.
+// // 4. Career advancment.
+// // 5. Understanding new techs.
+
+//============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
